@@ -100,6 +100,8 @@ body{
 /*START new-item*/
 .new-item-block{
     background-image: url(/img/new-item-bg.png);
+    max-width: 1440px;
+    width: 100%;
     }
 .new-item-block .block-item{
     margin: 0 auto;
@@ -148,6 +150,8 @@ body{
 }
 .company .item-block{
     background-image: url(/img/company-bg.png);
+    max-width: 1440px;
+    width: 100%;
    
 }
 .company .item-block h6{
@@ -183,7 +187,7 @@ body{
     margin-left: 0px;
 }
 .bg-after-company img{
-max-width: 1440px;
+
 width: 100%;
 }
 /*END company*/
@@ -226,7 +230,6 @@ width: 100%;
 
 /*START FIRE*/
 .fire .fire-img img{
-    max-width: 1440px;
     width: 100%;
     padding-bottom: 70px;
 }
@@ -293,7 +296,7 @@ width: 100%;
 .number{
    background-image: url(/img/number-bg.png);
    max-width: 1440px;
-   width: 100%;
+     width: 100%;
 }
 .number .number-block h5{
     font-family: 'Releway-SemiBold', sans-serif;
@@ -461,10 +464,7 @@ width: 100%;
 /*max-width: 300px*/
 @media only screen and (max-width: 300px){
 
-/*.header-navigation{
-    background-image: none;
-    
-    }*/
+
 .header-navigation h5{
     font-size: 19px;
     padding-left: 0px;
