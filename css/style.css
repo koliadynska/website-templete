@@ -12,8 +12,6 @@ body{
     background-repeat: no-repeat;
     max-width: 1440px;
     width: 100%;
-  
-       
 }
 .header-navigation h5{
     font-family: 'Releway-Bold', sans-serif;
@@ -79,13 +77,15 @@ body{
     text-align: center;
 }
 .special .special-guests{
+    background-image: url(/img/Smart-Object.png);
+    background-repeat: no-repeat;
     color: #fff;
     font-family: 'Releway-Bold', sans-serif;
     font-size: 29px;
 }
-.special .special-guests img{
-    margin-top: 87px;
-    margin-bottom: 17px;
+.special .special-guests .background span{
+    background-image: url(/img/Smart-Object.png);
+    background-repeat: no-repeat;
 }
 .special .special-guests h4{
     margin-bottom: 43px;
@@ -110,10 +110,15 @@ body{
     padding-top: 98px;
     color: #fff;
 }
+.new-item-block .block-item .item-arrow{
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+
+}
 .new-item-block .block-item p{
     font-family: 'Releway-Bold', sans-serif;
     font-size: 19px;
-    padding-top: 30px;
+    padding-top: 55px;
     padding-bottom: 40px;
 }
 .new-item-block .block-item span{
@@ -152,6 +157,7 @@ body{
     background-image: url(/img/company-bg.png);
     max-width: 1440px;
     width: 100%;
+   padding-left: 67px;
    
 }
 .company .item-block h6{
@@ -159,36 +165,36 @@ body{
     font-size: 17px;
     padding-top: 60px;
     padding-bottom: 57px;
-    margin-left: 67px;
+  
 }
 .company .item-block p{
     font-family: 'Releway-Regular', sans-serif;
     font-size: 14px;  
-    margin-left: 67px;
-}
-.company .item-block .circly{
-    display: flex;
-    margin-top: 45px;
-    padding-bottom: 58px;
-    margin-bottom: 114px;
-}
-.company .item-block .circly-img{
-    text-align: center;
    
 }
-.company .item-block .circly img {
-    max-width: 50px;
+.company .item-block .circly{
+    margin-top: 45px;
+    padding-bottom: 57px;
+    margin-bottom: 114px;
+    display: flex;
+      
+}
+.company .item-block .circly .circly-img h6 {
+   
+    background-image: url(/img/circly-1.png);
+    background-repeat: no-repeat;  
+    max-width: 63px;
     width: 100%;
 }
+/*
 .company .item-block .circly .circly-text{
     text-align: left;
 }
 .company .item-block .circly .circly-text p{
     margin-left: 0px;
-}
+}*/
 .bg-after-company img{
-
-width: 100%;
+    width: 100%;
 }
 /*END company*/
 
